@@ -24,6 +24,7 @@ $getipver = $_HC['getipver'];
 $antiddosver = $_HC['antiddosver'];
 $blockipver = $_HC['blockipver'];
 $webroot = $_HC['location'];
+$domain = $_HC['domain'];
 
 $logfile = "log-$time.log";
 
@@ -33,7 +34,8 @@ $data = array (
    "ip" => "$ip4",
    "ver" => array ("cmsver"=>"$cmsver","getip"=>"$getipver","blockipver"=>"$blockipver","antiddosver"=>"$antiddosver"),
    "author" => "$dev",
-   "webroot" => "$webroot"
+   "webroot" => "$webroot",
+   "domain" => "$domain"
 
 );
 print_r($data);
