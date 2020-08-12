@@ -19,6 +19,7 @@ Array
 
     [author] => Hayden NG of HNG Networks
     [webroot] => /home/vol13_5/host.hng.ovh/www/cms.netn.ga/htdocs/
+    [domain] => cms.netn.ga
 )
 ```
 All this does is provide diagnostics of what the system is running, and the xxx in the ip, the script actually generated, no protection is provided to the folder, however it doesn't leak anything too important.
