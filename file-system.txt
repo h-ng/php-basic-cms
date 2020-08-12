@@ -1,0 +1,6 @@
+The file system hierarchy is as follows;
+
+-config
+-security
+-content
+-console
