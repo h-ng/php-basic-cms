@@ -32,10 +32,10 @@ $_HC['enabledebug'] = "no"; // This will show the data we recieve from query, th
 
 // CMS Version & PHP version
 // These should generally not be changed, changing things marked [DON'T CHANGE] may corrupt your installation
-$_HC['version'] = "1.0"; // [DON'T CHANGE] This is the version
+$_HC['version'] = "1.2.1"; // [DON'T CHANGE] This is the version
 $_HC['devco'] = "HNG Networks"; // [DON'T CHANGE] This is the developing company
 $_HC['devper'] = "Hayden NG"; // [DON'T CHANGE] This is the developing person
 $_HC['key'] = "changeme"; // This is the key used in the antiddos program, it should be random, and not guesable
 $_HC['getipver'] = "1.0"; // [DON'T CHANGE] The getipprogram version
 $_HC['antiddosver'] = "1.0"; // [DON'T CHANGE] The antiddos program version
-$_HC['blockipver'] = "1.1"; // [DON'T CHANGE] The ipblock version
+$_HC['blockipver'] = "1.1-alpha"; // [DON'T CHANGE] The ipblock version
