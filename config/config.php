@@ -28,6 +28,7 @@ $_HC['blocked'] = array( // These are the ip's banned to access your site, to fo
       'xxx.xxx.xxx.xxx',
       'xxx.xxx.xxx.xxx'
      );
+$_HC['enabledebug'] = "no"; // This will show the data we recieve from query, this is default on no, and yes to show
 
 // CMS Version & PHP version
 // These should generally not be changed, changing things marked [DON'T CHANGE] may corrupt your installation
