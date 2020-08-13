@@ -26,6 +26,7 @@ $blockipver = $_HC['blockipver'];
 $webroot = $_HC['location'];
 $domain = $_HC['domain'];
 
+$adminemail = $_HC['adminemail'];
 $logfile = "log-$time.log";
 
 echo "<br>";
@@ -38,6 +39,9 @@ $data = array (
    "domain" => "$domain"
 
 );
-print_r($data);
 
-file_put_contents("$logfile", print_r($data, true));
+if($_HC['logging'] == "yes") {
+   file_put_contents("$logfile", print_r($data, true));
+} else {
+   echo "The system admin ($adminemail) has disabled creating logs";
+}
