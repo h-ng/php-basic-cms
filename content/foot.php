@@ -15,7 +15,7 @@
 <font size="-2">Made by <?php echo $_HC['devper'];?> on behalf of <?php echo $_HC['devco'];?> (Version <?php echo $_HC['version'];?>)
 </font>
 <?php } else { echo ""; }?>
-<?php if($_HC['showdebug'] == "yes") {?>
+<?php if($_HC['enabledebug'] == "yes") {?>
 <?php $url1 = parse_url($_SERVER['REQUEST_URI']);?>
 <hr>
 </center>
