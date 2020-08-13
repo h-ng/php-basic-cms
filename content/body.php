@@ -7,7 +7,10 @@
 // Make sure the page system works
 $url = $_SERVER['REQUEST_URI'];
 if ($url == "/") {
-   header("Location: index.php");
+  if (count($_GET)) {
+    header("Location: index.php");
+  }
+header("Location: index.php");
 }
 
 $request1 = $_SERVER['REQUEST_URI'];
