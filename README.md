@@ -10,7 +10,7 @@ A very basic content management system, It is to make websites simpler, no confu
 
 To edit the index.php files, add css in /content/index/css, js in /content/index/js and body content in /content/index/body, note that files are included alphabetically (e.g a.php shows up before c.php)
 
-Logging is in the /logging directory, They collect the following information, you can disable logs in /config/config.php in the [logging] section;
+Logging is in the /logging directory, They collect the following information, you can disable logs in /config/config.php in the [logging] section (THe below is an extract from [cms.hn.fyi](http://cms.hn.fyi/logging/log-1597341517.log);
 ```php
 Array
 (
