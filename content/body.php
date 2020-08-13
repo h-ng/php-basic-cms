@@ -6,11 +6,13 @@
 <?php
 // Make sure the page system works
 $url = $_SERVER['REQUEST_URI'];
-if ($url == "/") {
-  if (count($_GET)) {
+$url1 = parse_url($_SERVER['REQUEST_URI']);
+
+if($url1['path'] == "/") {
+  if(isset($url1['query'])){
     header("Location: index.php");
   }
-header("Location: index.php");
+  header("Location: index.php");
 }
 
 $request1 = $_SERVER['REQUEST_URI'];
