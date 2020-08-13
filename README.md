@@ -1,6 +1,13 @@
 # php-basic-cms - 15 Lines is all you need...
 A very basic content management system, It is to make websites simpler, no confusing big files, just a directory, the documentation is at [docs.hn.fyi](https://docs.hn.fyi/d/5-hng-cms-guide) and the most recent, up to date version at [hn.fyi/hng-cms.zip](https://www.hn.fyi/hng-cms.zip), However this repositary will get large updates.
 
+** Main Features**
+
+* IP Logger (Basic functionality)
+* DDoS Attack Preventor [Original Here](https://github.com/GiacomoDevIT/AntiDDoS)
+* IP Blocker System
+
+
 To edit the index.php files, add css in /content/index/css, js in /content/index/js and body content in /content/index/body, note that files are included alphabetically (e.g a.php shows up before c.php)
 
 Logging is in the /logging directory, They collect the following information;
