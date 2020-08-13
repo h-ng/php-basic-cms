@@ -1,5 +1,5 @@
 # php-basic-cms - 15 Lines is all you need...
-A very basic content management system, It is to make websites simpler, no confusing big files, just a directory, the documentation is at [docs.hn.fyi](https://docs.hn.fyi/d/5-hng-cms-guide) and the most recent, up to date version at [hn.fyi/hng-cms.zip](https://www.hn.fyi/hng-cms.zip), However this repositary will get large updates.
+A very basic content management system, It is to make websites simpler, no confusing big files, just a directory, the documentation is at [docs.hn.fyi](https://docs.hn.fyi/d/5-hng-cms-guide) 
 
 **Main Features**
 
@@ -10,24 +10,25 @@ A very basic content management system, It is to make websites simpler, no confu
 
 To edit the index.php files, add css in /content/index/css, js in /content/index/js and body content in /content/index/body, note that files are included alphabetically (e.g a.php shows up before c.php)
 
-Logging is in the /logging directory, They collect the following information;
+Logging is in the /logging directory, They collect the following information, you can disable logs in /config/config.php in the [logging] section;
 ```php
 Array
 (
-    [timestamp] => 1597261237 / 2020-08-12 15:40:37
+    [timestamp] => 1597341517 / 2020-08-13 13:58:37
     [ip] => 176.xxx.162.117
     [ver] => Array
         (
-            [cmsver] => 1.0
+            [cmsver] => 1.2.1
             [getip] => 1.0
-            [blockipver] => 1.1
+            [blockipver] => 1.1-alpha
             [antiddosver] => 1.0
         )
 
     [author] => Hayden NG of HNG Networks
-    [webroot] => /home/vol13_5/host.hng.ovh/www/cms.netn.ga/htdocs/
-    [domain] => cms.netn.ga
+    [webroot] => /home/vol13_5/host.hng.ovh/www//cms.hn.fyi
+    [domain] => cms.hn.fyi
 )
+
 ```
 All this does is provide diagnostics of what the system is running, and the xxx in the ip, the script actually generated, no protection is provided to the folder, however it doesn't leak anything too important.
 
