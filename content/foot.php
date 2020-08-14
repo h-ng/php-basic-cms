@@ -20,6 +20,7 @@
 <hr>
 </center>
 <pre>Recieved debug information:</pre>
+<pre>Information about URL path</pre>
 <?php echo '<pre>'; print_r($url1); echo '</pre>'; ?>
 <?php } else {}?>
 </center>
