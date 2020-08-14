@@ -1,7 +1,7 @@
 <?php
   include "config/config.php";
   include "security/config.php";
-  include "content/head.php";
+  include "content/head.php"; 
   include "content/meta.php";
   include "content/head1.php";
   include "content/body.php";
