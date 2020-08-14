@@ -1,4 +1,6 @@
 # Start heronCMS
+
+# Evade the ?i= which messes with page system
 RewriteCond %{QUERY_STRING} ^(.*)i=[^&]+(.*)$ [NC]
 RewriteRule ^(.*)$ /$1?%1%2 [R=301,L]
 # End heronCMS
