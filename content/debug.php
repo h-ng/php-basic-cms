@@ -12,8 +12,8 @@ $method = $_SERVER['REQUEST_METHOD'];
 $access = $_SERVER['SCRIPT_URI'];
 
 $_HC['debug'] = array (
-      "visitip" => "$visitip",
-      "srvip" => "$ip4",
+      "visitip" => "$ip4",
+      "srvip" => "$srvip",
       "visit" => "$httpver $method",
       "page" => "$access"
       );
