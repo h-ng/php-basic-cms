@@ -1,5 +1,6 @@
 <?php
   include 'config/config.php';
+  include 'content/debug.php';
 ?>
 <footer>
 <!-- Enter footer content here -->
@@ -21,6 +22,9 @@
 </center>
 <pre>Recieved debug information:</pre>
 <pre>Information about URL path</pre>
-<?php echo '<pre>'; print_r($url1); echo '</pre>'; ?>
+<?php 
+echo '<pre>'; print_r($url1); echo '</pre>'; 
+echo '<pre>'; print_r($_HC['debug']); echo '</pre>';
+?>
 <?php } else {}?>
 </center>
