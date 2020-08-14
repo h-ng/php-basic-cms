@@ -4,7 +4,6 @@
 <body>
 <!-- Enter body content here -->
 <?php
-// Make sure the page system works
 $url = $_SERVER['REQUEST_URI'];
 $url1 = parse_url($_SERVER['REQUEST_URI']);
 
